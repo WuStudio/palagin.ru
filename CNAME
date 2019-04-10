@@ -1,1 +1,17 @@
-tinyhill.ru
+@ 300 IN SOA ns1.beget.com. hostmaster.beget.com. 1551091287 300 600 86400 300
+@ 300 IN A 5.101.152.252
+@ 300 IN MX 10 mx1.beget.com.
+@ 300 IN MX 20 mx2.beget.com.
+@ 300 IN NS ns1.beget.com.
+@ 300 IN NS ns2.beget.com.
+@ 300 IN NS ns1.beget.pro.
+@ 300 IN NS ns2.beget.pro.
+@ 300 IN NS ns1.beget.ru.
+@ 300 IN NS ns2.beget.ru.
+@ 300 IN TXT "v=spf1 redirect=beget.com"
+www 300 IN A 5.101.152.252
+www 300 IN MX 10 mx1.beget.com.
+www 300 IN MX 20 mx2.beget.com.
+www 300 IN TXT "v=spf1 redirect=beget.com"
+autoconfig 300 IN CNAME autoconfig.beget.com.
+autodiscover 300 IN CNAME autoconfig.beget.com
