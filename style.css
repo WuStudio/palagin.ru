@@ -7,4 +7,5 @@ header{
 
 	/* Выравниваем элементы вертикально по центру. */
 	align-items: center;
+	background-color: pink;
 }
