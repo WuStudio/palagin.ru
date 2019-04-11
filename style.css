@@ -9,3 +9,12 @@ header{
 	align-items: center;
 	background-color: pink;
 }
+.header-left{
+background-color: pink;
+}
+.header-right{
+	background-color: pink;
+}
+.header-center{
+		background-color: pink;
+}
