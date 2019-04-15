@@ -20,7 +20,7 @@ header:before{
     left: 0;
     right: 0;
     bottom: 0;
-    background: #272f33 url(../img/bg2.png);
+    background: #272f33;
     background-blend-mode: soft-light;
     opacity: 0.9;
 }
