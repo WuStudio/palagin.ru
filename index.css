@@ -4,21 +4,7 @@ body {
 .logo {
   float: left;
 }
-nav {
-  float: right;
-  display:flex;
-  justify-content:space-around;
-  align-items:center;
-  flex-wrap:wrap;
-}
-nav ul {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
-nav li {
-  display: inline-block;
-}
+
 .container {
   width: 100%;
   max-width: 100%;
@@ -42,4 +28,7 @@ margin-right: 50px;
 	width: 100%;
 	max-width: 100%;
 	margin: 0 auto;
+}
+span {
+	background-color: #262626px;
 }
