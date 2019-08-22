@@ -10,6 +10,8 @@ body {
   max-width: 100%;
   padding: 15px;
   margin: 0 auto;
+  background-color: #262626;
+  float: right;
 }
 a { 
 color: inherit; 
@@ -28,7 +30,4 @@ margin-right: 50px;
 	width: 100%;
 	max-width: 100%;
 	margin: 0 auto;
-}
-span {
-	background-color: #262626;
 }
