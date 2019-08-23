@@ -5,7 +5,7 @@ body {
 .divspan {
         width: 100%;
 	background: #262626;
-	display: block;
+	display: flex;
 	height: 100px;
 }
 .item {
