@@ -12,7 +12,7 @@ body {
 	text-decoration: none;
 	color: white;
 	font-size: 16px;
-        float: left;
+        float: right;
 }
 .item:hover {
 	color: yellow;
