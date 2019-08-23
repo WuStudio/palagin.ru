@@ -3,8 +3,9 @@ body {
 	margin: 0px;
 }
 span {
+        width: 100%;
 	background: #262626;
-	display: flex;
+	display: block;
 	height: 100px;
 	position: relative;
 }
