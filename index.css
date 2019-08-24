@@ -1,32 +1,50 @@
 body {
-	font-family: 'Lexend Deca', sans-serif;
 	margin: 0px;
 }
-.divspan {
-        width: 100%;
-	background: #262626;
+#headers {
+	background-color: #262626;
+	height: 50px;
+	font-family: 'Lexend Deca', sans-serif;
+	font-size: 18px;
 	display: block;
-	height: 100px;
+
 }
 .item {
+	background-color: #FF0000;
+	display: inline-block;
+	width: 110px;
+	float: right;
+	margin-right: 50px;
+	margin-top: 16px;
+	text-align: center;
 	text-decoration: none;
-	color: white;
-	font-size: 16px;
-        float: right;
+	color: #FFFFFF;
+}
+.logo {
+	background-color: #FF0000;
+	display: inline-block;
+	width: 90px;
+	float: left;
+	margin-left: 50px;
+	margin-top: 16px;
+	text-align: center;
+	text-decoration: none;
+	color: #FFFFFF;
+}
+.logo2 {
+	margin-left: 820px;
+    justify-content: center;
+	color: #FFFFFF;
+	display: inline-block;
+	margin-top: 16px;
+	text-decoration: none;
+	color: #FFFFFF;	
+}
+.logo:hover {
+	color: #262626;
+	background-color: #FFFFFF;
 }
 .item:hover {
-	color: yellow;
-}
-.content {
-	background-color: yellow;
-	text-decoration: none;
-	font-size: 70px;
-	position: relative;
-    height: 100vh;
 	color: #262626;
-	
-}
-a {
-margin: 0px;
-padding: 0px;
+	background-color: #FFFFFF;
 }
