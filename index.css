@@ -1,33 +1,39 @@
 body{
+	background-color: #262626;
 	margin: 0px;
 	padding: 0px;
 }
 #headers {
-	background-color: #262626;
 	height: 40px;
 	font-family: 'Lexend Deca', sans-serif;
 	font-size: 18px;
-	text-decoration: none;
 	padding-top: 10px;
+	margin-left: 40px;
+	margin-right: 40px;
+}
+a{
+	text-decoration: none;
 }
 .item-container{
 	float: right;
 	width: auto;
 	text-align: right;
+	padding: 0px;
 }
 .item {
 	background-color: #FF0000;
-	margin-right: 5px;
+	margin-left: 15px;
 	color: #FFFFFF;
 }
 .logo {
 	background-color: #FF0000;
 	float: left;
-	width: auto;
+	width: 80px;
+	text-align: center;
 	color: #FFFFFF;
 }
 .logo2 {
-
+	margin-left: 40%;
 	width: auto;
 	float: left;
 	margin-right: 50px;
@@ -62,4 +68,9 @@ body{
 	margin-top: 10px;
 	margin-left: 10px;
 	margin-bottom: 5px;
+}
+.content{
+	margin-right: 40px;
+	margin-left: 40px;
+	background: white;
 }
