@@ -6,7 +6,6 @@ body, html {
 #headers {
 	background-color: #262626;
 	height: 6%;
-        width: 100%;
 	font-family: 'Lexend Deca', sans-serif;
 	font-size: 18px;
 	display: block;
@@ -14,28 +13,33 @@ body, html {
 }
 .item {
 	background-color: #FF0000;
-	display: block;
-	float: right; 
-	margin-right: 1%;
-	margin-top: 1%;
+	display: inline-block;
+	width: 110px;
+	float: right;
+	margin-right: 50px;
+	margin-top: 16px;
+	text-align: center;
+	text-decoration: none;
 	color: #FFFFFF;
 }
 .logo {
 	background-color: #FF0000;
-	display: block;
-	width: 2%;
+	display: inline-block;
+	width: 90px;
 	float: left;
-	margin-left: 1%;
-	margin-top: 1%;
+	margin-left: 50px;
+	margin-top: 16px;
+	text-align: center;
+	text-decoration: none;
 	color: #FFFFFF;
 }
 .logo2 {
-        justify-content: center;
+	margin-left: 820px;
+    justify-content: center;
 	color: #FFFFFF;
-	display: block;
-	margin-top: 1%;
+	display: inline-block;
+	margin-top: 16px;
 	text-decoration: none;
-        float: left;
 	color: #FFFFFF;	
 }
 .logo:hover {
@@ -80,4 +84,16 @@ body, html {
 .s1:hover {
 	width: 500px;
 	transition: all 0.1s;
+}
+.mj1 {
+	background-image: url(2018.png);
+	width: 64px;
+	height: 64px;
+		margin-left: 820px;
+    justify-content: center;
+	color: #FFFFFF;
+	display: inline-block;
+	margin-top: 16px;
+	text-decoration: none;
+	color: #FFFFFF;	
 }
