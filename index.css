@@ -72,5 +72,5 @@ a{
 	background: white;
 }
 .items {
-	float: left
+	display: inline-block;
 }
