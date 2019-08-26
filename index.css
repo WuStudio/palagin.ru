@@ -71,3 +71,6 @@ a{
 	margin-left: 40px;
 	background: white;
 }
+.items {
+	float: left
+}
