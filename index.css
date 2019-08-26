@@ -6,6 +6,7 @@ body, html {
 #headers {
 	background-color: #262626;
 	height: 6%;
+        width: 100%;
 	font-family: 'Lexend Deca', sans-serif;
 	font-size: 18px;
 	display: block;
@@ -13,33 +14,28 @@ body, html {
 }
 .item {
 	background-color: #FF0000;
-	display: inline-block;
-	width: 110px;
-	float: right;
-	margin-right: 50px;
-	margin-top: 16px;
-	text-align: center;
-	text-decoration: none;
+	display: block;
+	float: right; 
+	margin-right: 1%;
+	margin-top: 1%;
 	color: #FFFFFF;
 }
 .logo {
 	background-color: #FF0000;
-	display: inline-block;
-	width: 90px;
+	display: block;
+	width: 2%;
 	float: left;
-	margin-left: 50px;
-	margin-top: 16px;
-	text-align: center;
-	text-decoration: none;
+	margin-left: 1%;
+	margin-top: 1%;
 	color: #FFFFFF;
 }
 .logo2 {
-	margin-left: 820px;
-    justify-content: center;
+        justify-content: center;
 	color: #FFFFFF;
-	display: inline-block;
-	margin-top: 16px;
+	display: block;
+	margin-top: 1%;
 	text-decoration: none;
+        float: left;
 	color: #FFFFFF;	
 }
 .logo:hover {
