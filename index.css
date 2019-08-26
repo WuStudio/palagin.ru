@@ -14,15 +14,12 @@ body{
 a{
 	text-decoration: none;
 }
-.item-container{
-	float: right;
-	width: auto;
-	text-align: right;
-	padding: 0px;
-}
 .item {
+	text-align: center;
+	float: right;
+	width: 120px;
 	background-color: #FF0000;
-	margin-left: 15px;
+	margin-left: 25px;
 	color: #FFFFFF;
 }
 .logo {
